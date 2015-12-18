@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVC Library</string>
+    <string name="login_password">Password</string>
+</resources>
