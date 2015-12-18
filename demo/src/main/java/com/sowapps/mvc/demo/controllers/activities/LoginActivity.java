@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.sowapps.mvc.demo.models.Credentials;
-import com.sowapps.mvc.demo.views.LoginBasicView;
+import com.sowapps.mvc.demo.views.LoginFeaturedView;
 import com.sowapps.mvc.mvclibrary.views.LayoutView;
 
 /**
@@ -31,8 +31,8 @@ public class LoginActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		Log.d(TAG, "onCreate(" + (savedInstanceState != null ? savedInstanceState.size() : 0) + ")");
 
-		layoutView = new LoginBasicView(this);
-//		layoutView = new LoginFeaturedView(this);
+//		layoutView = new LoginBasicView(this);
+		layoutView = new LoginFeaturedView(this);
 
 		setContentView(layoutView.getLayoutID());
 		layoutView.setUp();

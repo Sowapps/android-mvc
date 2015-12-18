@@ -19,4 +19,7 @@
     <string name="login_email">Email</string>
     <string name="login_button">Login</string>
     <string name="register_button">Register</string>
+    <string name="login_success">Login OK !</string>
+    <string name="login_progress">Logging in...</string>
+    <string name="login_error">Login Failed !</string>
 </resources>
